@@ -49,7 +49,6 @@ export const AboutPage = () => {
                             <img className='w-[32px] h-auto' src={bootstrap} alt="" />
                             <img className='w-[32px] h-auto' src={laravel} alt="" />
                             <img className='w-[32px] h-auto' src={express} alt="" />
-                            <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=dragonjeric@gmail.com&su=Custom%20Subject&body=Your%20login%20code%20is%20${encodedLoginCode}`} target='_blank' rel="noopener noreferrer">Get code</a>
                         </div>
                     </div>
                 </div>
