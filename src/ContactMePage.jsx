@@ -11,7 +11,7 @@ export const ContactMePage = () => {
         e.preventDefault();
     
         // Construct the Gmail compose window URL with form data
-        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=dragonjeric@gmail.com&su=Email+from+-+${encodeURIComponent(senderName)}+,+${encodeURIComponent(senderEmail)}&body=${encodeURIComponent(emailBody)}`;
+        const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=jericviernes06@gmail.com&su=Email+from+-+${encodeURIComponent(senderName)}+,+${encodeURIComponent(senderEmail)}&body=${encodeURIComponent(emailBody)}`;
     
         // Open Gmail compose window in a new tab
         window.open(gmailUrl, '_blank');
